@@ -1,0 +1,15 @@
+os: windows
+language: go
+env:
+  STR1: AKIAI6E66XXXX4SKIJWA
+  STR2: AKIAI6E66XXXX4SKIJWA
+script:
+  - echo $STR1
+  - echo $STR2
+  - echo "Test ${STR1} test2 ${STR2} textextext"
+  - echo $STR1
+  - echo $STR2
+  - echo "Test ${STR1} test2 ${STR2} textextext"
+  - echo $STR1
+  - echo $STR2
+  - echo "Test ${STR1} test2 ${STR2} textextext"
